@@ -1,2 +1,2 @@
 // JavaScript code can be added here
-console.log("Welcome to My GitHub Page!");
+console.log("KYA DEKH RAHA H BC BHAK!");
