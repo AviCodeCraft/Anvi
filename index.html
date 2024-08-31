@@ -3,20 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="A professional portfolio page for a coder">
+    <title>Your Name | Coder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #007acc;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: calc(50% - 10px);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007acc;
+            color: white;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website ANVI</h1>
-        <p>HAHAHAHAHA!</p>
+        <h1>Your Name</h1>
+        <p>Professional Coder & Developer</p>
     </header>
-    <main>
-        <p>Enjoy exploring!</p>
-    </main>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a passionate coder with experience in various programming languages and frameworks. My goal is to build efficient and scalable software solutions.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <p>JavaScript, Python, HTML, CSS, Node.js, React, Git, and more...</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A brief description of the project. <a href="#">View on GitHub</a></p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>A brief description of the project. <a href="#">View on GitHub</a></p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 My GitHub Page</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
